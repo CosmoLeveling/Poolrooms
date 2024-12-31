@@ -11,5 +11,6 @@ public class PoolsClient implements ClientModInitializer {
 	public void onInitializeClient(ModContainer mod) {
 		BlockRenderLayerMap.put(RenderLayer.getCutout(),PoolsBlocks.SKY_BLOCK);
 		BlockRenderLayerMap.put(RenderLayer.getCutout(),PoolsBlocks.STEEL_GRATE);
+		BlockRenderLayerMap.put(RenderLayer.getCutout(),PoolsBlocks.CAGED_LIGHT);
 	}
 }

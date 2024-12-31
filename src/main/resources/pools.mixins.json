@@ -3,7 +3,8 @@
   "minVersion": "0.8",
   "package": "net.quiltmc.users.cosmo.pools.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [],
+  "mixins": [
+  ],
   "client": [
     "GameRendererAccessor"
   ],
