@@ -10,7 +10,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 public class Caged_Light extends FacingBlock {
-	protected static final VoxelShape SHAPE = Block.createCuboidShape(5,5,5,10,10,10);
+	protected static final VoxelShape SHAPE = Block.createCuboidShape(5,0,5,11,7,11);
 	public Caged_Light(AbstractBlock.Settings settings) {
 		super(settings);
 		this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.UP));
