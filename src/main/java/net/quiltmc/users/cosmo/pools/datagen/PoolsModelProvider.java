@@ -17,6 +17,7 @@ public class PoolsModelProvider extends FabricModelProvider {
 		white_tiles_blocks.stairs(PoolsBlocks.WHITE_TILES_STAIRS);
 		white_tiles_blocks.slab(PoolsBlocks.WHITE_TILES_SLABS);
 		white_tiles_blocks.wall(PoolsBlocks.WHITE_TILES_WALLS);
+		blockStateModelGenerator.registerSimpleCubeAll(PoolsBlocks.STEEL_GRATE);
 	}
 
 	@Override
