@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "pools:block/white_tiles"
+    "wall": "pools:block/cut_steel"
   }
 }

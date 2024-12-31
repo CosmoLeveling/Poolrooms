@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "pools:block/white_tiles"
+    "all": "pools:block/cut_steel"
   }
 }

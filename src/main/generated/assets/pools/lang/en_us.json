@@ -1,8 +1,10 @@
 {
+  "block.pools.cut_steel": "Cut Steel",
+  "block.pools.cut_steel_slabs": "Cut Steel Slabs",
+  "block.pools.cut_steel_stairs": "Cut Steel Stairs",
+  "block.pools.cut_steel_walls": "Cut Steel Walls",
   "block.pools.sky_block": "Sky Block",
-  "block.pools.white_tiles": "White Tiles",
-  "block.pools.white_tiles_slabs": "White Tiles Slabs",
-  "block.pools.white_tiles_stairs": "White Tiles Stairs",
-  "block.pools.white_tiles_walls": "White Tiles Walls",
+  "block.pools.steel_block": "Steel Block",
+  "block.pools.steel_grate": "Steel Grate",
   "itemGroup.fabric_docs_reference": "Pools"
 }

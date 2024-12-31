@@ -8,13 +8,12 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
 import net.quiltmc.users.cosmo.pools.Pools;
 
 public class PoolsItemGroups {
 	public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Pools.id("itemgroup"));
 	public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
-		.icon(() -> new ItemStack(PoolsBlocks.WHITE_TILES))
+		.icon(() -> new ItemStack(PoolsBlocks.CUT_STEEL))
 		.name(Text.translatable("itemGroup.fabric_docs_reference"))
 		.build();
 
@@ -24,10 +23,12 @@ public class PoolsItemGroups {
 
 // Register items to the custom item group.
 		ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
-			itemGroup.addItem(PoolsBlocks.WHITE_TILES);
-			itemGroup.addItem(PoolsBlocks.WHITE_TILES_SLABS);
-			itemGroup.addItem(PoolsBlocks.WHITE_TILES_STAIRS);
-			itemGroup.addItem(PoolsBlocks.WHITE_TILES_WALLS);
+			itemGroup.addItem(PoolsBlocks.CUT_STEEL);
+			itemGroup.addItem(PoolsBlocks.CUT_STEEL_SLABS);
+			itemGroup.addItem(PoolsBlocks.CUT_STEEL_STAIRS);
+			itemGroup.addItem(PoolsBlocks.CUT_STEEL_WALLS);
+			itemGroup.addItem(PoolsBlocks.STEEL_GRATE);
+			itemGroup.addItem(PoolsBlocks.STEEL_BLOCK);
 		});
 	}
 }

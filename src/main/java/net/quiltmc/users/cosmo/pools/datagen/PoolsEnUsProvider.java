@@ -2,7 +2,6 @@ package net.quiltmc.users.cosmo.pools.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.util.Identifier;
 import net.quiltmc.users.cosmo.pools.init.PoolsBlocks;
 import net.quiltmc.users.cosmo.pools.init.PoolsItemGroups;
 
@@ -13,10 +12,12 @@ public class PoolsEnUsProvider extends FabricLanguageProvider {
 
 	@Override
 	public void generateTranslations(TranslationBuilder translationBuilder) {
-		translationBuilder.add(PoolsBlocks.WHITE_TILES,"White Tiles");
-		translationBuilder.add(PoolsBlocks.WHITE_TILES_STAIRS,"White Tiles Stairs");
-		translationBuilder.add(PoolsBlocks.WHITE_TILES_SLABS,"White Tiles Slabs");
-		translationBuilder.add(PoolsBlocks.WHITE_TILES_WALLS,"White Tiles Walls");
+		translationBuilder.add(PoolsBlocks.CUT_STEEL,"Cut Steel");
+		translationBuilder.add(PoolsBlocks.CUT_STEEL_STAIRS,"Cut Steel Stairs");
+		translationBuilder.add(PoolsBlocks.CUT_STEEL_SLABS,"Cut Steel Slabs");
+		translationBuilder.add(PoolsBlocks.CUT_STEEL_WALLS,"Cut Steel Walls");
+		translationBuilder.add(PoolsBlocks.STEEL_GRATE,"Steel Grate");
+		translationBuilder.add(PoolsBlocks.STEEL_BLOCK, "Steel Block");
 		translationBuilder.add(PoolsItemGroups.CUSTOM_ITEM_GROUP_KEY,"Pools");
 		translationBuilder.add(PoolsBlocks.SKY_BLOCK,"Sky Block");
 	}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pools:block/cut_steel_slabs"
+    },
+    "type=double": {
+      "model": "pools:block/cut_steel"
+    },
+    "type=top": {
+      "model": "pools:block/cut_steel_slabs_top"
+    }
+  }
+}

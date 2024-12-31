@@ -13,11 +13,12 @@ public class PoolsModelProvider extends FabricModelProvider {
 
 	@Override
 	public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-		BlockStateModelGenerator.BlockTexturePool white_tiles_blocks = blockStateModelGenerator.registerCubeAllModelTexturePool(PoolsBlocks.WHITE_TILES);
-		white_tiles_blocks.stairs(PoolsBlocks.WHITE_TILES_STAIRS);
-		white_tiles_blocks.slab(PoolsBlocks.WHITE_TILES_SLABS);
-		white_tiles_blocks.wall(PoolsBlocks.WHITE_TILES_WALLS);
+		BlockStateModelGenerator.BlockTexturePool white_tiles_blocks = blockStateModelGenerator.registerCubeAllModelTexturePool(PoolsBlocks.CUT_STEEL);
+		white_tiles_blocks.stairs(PoolsBlocks.CUT_STEEL_STAIRS);
+		white_tiles_blocks.slab(PoolsBlocks.CUT_STEEL_SLABS);
+		white_tiles_blocks.wall(PoolsBlocks.CUT_STEEL_WALLS);
 		blockStateModelGenerator.registerSimpleCubeAll(PoolsBlocks.STEEL_GRATE);
+		blockStateModelGenerator.registerSimpleCubeAll(PoolsBlocks.STEEL_BLOCK);
 	}
 
 	@Override
