@@ -28,7 +28,7 @@ public class PoolsWorlds implements LimlibRegistrar {
 
 	public static final LimlibWorld MY_WORLD =
 		new LimlibWorld(
-			() -> new DimensionType(OptionalLong.of(6000), true, false, false, true, 1.0, true, false, 0, 512, 512,
+			() -> new DimensionType(OptionalLong.of(6000), true, false, false, false, 1.0, true, false, 0, 512, 512,
 				TagKey.of(RegistryKeys.BLOCK, Pools.id(POOLS)), Pools.id(POOLS), 0.725F,
 				new DimensionType.MonsterSettings(false, false, ConstantIntProvider.ZERO, 0)),
 		(registry) ->
