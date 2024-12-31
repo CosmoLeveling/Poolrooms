@@ -50,7 +50,7 @@ public class PoolsTestingChunkGenerator extends AbstractNbtChunkGenerator {
 
 	public PoolsTestingChunkGenerator(BiomeSource biomeSource, NbtGroup group, int width, int height) {
 		super(biomeSource, group);
-		this.mazeGenerator = new MazeGenerator<MazeComponent>(width, height, /* Cell X Thickness */ 9, /* Cell Y Thickness */ 9, /* Seed Modifier */ 0);
+		this.mazeGenerator = new MazeGenerator<MazeComponent>(width, height, /* Cell X Thickness */ 15, /* Cell Y Thickness */ 15, /* Seed Modifier */ 0);
 	}
 
 	public static NbtGroup createGroup() {

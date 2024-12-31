@@ -8,7 +8,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-
+@SuppressWarnings("deprication")
 public class Caged_Light extends FacingBlock {
 	protected static final VoxelShape UP = Block.createCuboidShape(5,0,5,11,7,11);
 	protected static final VoxelShape DOWN = Block.createCuboidShape(5,9,5,11,16,11);
@@ -20,7 +20,6 @@ public class Caged_Light extends FacingBlock {
 		super(settings);
 		this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.UP));
 	}
-
 	@Override
 	public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		if (state.get(FACING) == Direction.SOUTH){

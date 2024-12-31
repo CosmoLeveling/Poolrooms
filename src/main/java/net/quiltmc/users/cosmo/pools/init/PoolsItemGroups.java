@@ -9,7 +9,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.quiltmc.users.cosmo.pools.Pools;
-
 public class PoolsItemGroups {
 	public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Pools.id("itemgroup"));
 	public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
@@ -17,7 +16,7 @@ public class PoolsItemGroups {
 		.name(Text.translatable("itemGroup.fabric_docs_reference"))
 		.build();
 
-	public static final void Register(){
+	public static void Register(){
 		// Register the group.
 		Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
 
