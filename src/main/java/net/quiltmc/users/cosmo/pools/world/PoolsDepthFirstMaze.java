@@ -32,7 +32,16 @@ public class PoolsDepthFirstMaze extends DepthLikeMaze {
 			this.cellState(this.stack.peek()).go(Face.UP);
 			this.cellState(this.stack.peek()).go(Face.RIGHT);
 		}
-		if (this.stack.peek().getX() == 2 && this.stack.peek().getY() == 0) {
+		if (this.stack.peek().getX() % 2 == 0 && this.stack.peek().getY() == 0) {
+			this.cellState(this.stack.peek()).go(Face.LEFT);
+		}
+		if (this.stack.peek().getX() % 2 == 0 && this.stack.peek().getY() == 10) {
+			this.cellState(this.stack.peek()).go(Face.RIGHT);
+		}
+		if (this.stack.peek().getX() == 0 && this.stack.peek().getY() % 2 == 0) {
+			this.cellState(this.stack.peek()).go(Face.DOWN);
+		}
+		if (this.stack.peek().getX() == 10 && this.stack.peek().getY() % 2 == 0) {
 			this.cellState(this.stack.peek()).go(Face.UP);
 		}
 	}
