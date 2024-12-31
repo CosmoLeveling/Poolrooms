@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pools:block/white_tiles_slabs"
+    },
+    "type=double": {
+      "model": "pools:block/white_tiles"
+    },
+    "type=top": {
+      "model": "pools:block/white_tiles_slabs_top"
+    }
+  }
+}

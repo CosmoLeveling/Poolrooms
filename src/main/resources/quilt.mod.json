@@ -1,0 +1,44 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "pools",
+        "version": "${version}",
+        "metadata": {
+            "name": "poolrooms",
+            "description": "Pool rooms mod",
+            "contributors": {
+                "Cosmo": "Owner"
+            },
+            "contact": {},
+            "icon": "assets/example_mod/icon.png",
+            "license": "MIT"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "init": "net.quiltmc.users.cosmo.pools.Pools",
+						"fabric-datagen": "net.quiltmc.users.cosmo.pools.PoolsDataGeneration",
+					"client_init": "net.quiltmc.users.cosmo.pools.PoolsClient",
+					"limlib:registrar": "net.quiltmc.users.cosmo.pools.init.PoolsWorlds"
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.19.1"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=7.0.2"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            },
+						{
+							"id": "limlib",
+							"versions": "11.0.0"
+						}
+        ]
+    },
+    "mixin": "pools.mixins.json"
+}

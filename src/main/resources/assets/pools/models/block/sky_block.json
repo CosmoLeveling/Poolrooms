@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/glass",
+  "specialmodels": {
+    "pools:normal_skybox": "pools:shader/normal_skybox"
+  }
+}
