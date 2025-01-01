@@ -42,7 +42,7 @@ public class PoolsWorlds implements LimlibRegistrar {
 		.get(RegistryKeys.BIOME)
 						.getHolder(PoolsBiomes.POOLS_BIOME)
 						.get())
-			,PoolsTestingChunkGenerator.createGroup(),11,11)));
+			,PoolsTestingChunkGenerator.createGroup(),11/*How big the maze is on the X*/,11/*How big the maze is on the Z*/)));
 	@Override
 	public void registerHooks() {
 		LimlibWorld.LIMLIB_WORLD.register(
