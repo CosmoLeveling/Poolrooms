@@ -1,8 +1,10 @@
 {
+  "block.pools.caged_light": "Caged Light",
   "block.pools.cut_steel": "Cut Steel",
   "block.pools.cut_steel_slabs": "Cut Steel Slabs",
   "block.pools.cut_steel_stairs": "Cut Steel Stairs",
   "block.pools.cut_steel_walls": "Cut Steel Walls",
+  "block.pools.flat_light": "Flat Light",
   "block.pools.sky_block": "Sky Block",
   "block.pools.steel_block": "Steel Block",
   "block.pools.steel_grate": "Steel Grate",

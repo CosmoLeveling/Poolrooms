@@ -29,6 +29,7 @@ public class PoolsItemGroups {
 			itemGroup.addItem(PoolsBlocks.STEEL_GRATE);
 			itemGroup.addItem(PoolsBlocks.STEEL_BLOCK);
 			itemGroup.addItem(PoolsBlocks.CAGED_LIGHT);
+			itemGroup.addItem(PoolsBlocks.FLAT_LIGHT);
 		});
 	}
 }

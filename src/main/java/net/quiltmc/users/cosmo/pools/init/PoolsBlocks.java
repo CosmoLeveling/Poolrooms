@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.quiltmc.users.cosmo.pools.Pools;
 import net.quiltmc.users.cosmo.pools.blocks.Caged_Light;
+import net.quiltmc.users.cosmo.pools.blocks.Flat_Light;
 import net.quiltmc.users.cosmo.pools.blocks.GrateBlock;
 import net.quiltmc.users.cosmo.pools.blocks.SkyBlock;
 import org.quiltmc.qsl.block.extensions.api.QuiltBlockSettings;
@@ -22,6 +23,7 @@ public class PoolsBlocks {
 	public static final Block CUT_STEEL_WALLS = registerBlock("cut_steel_walls", new WallBlock(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 	public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 	public static final Block CAGED_LIGHT = registerBlock("caged_light", new Caged_Light(QuiltBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+	public static final Block FLAT_LIGHT = registerBlock("flat_light", new Flat_Light(QuiltBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name,block);
 		return Registry.register(Registries.BLOCK,Pools.id(name),block);

@@ -8,7 +8,8 @@
             "name": "poolrooms",
             "description": "Pool rooms mod",
             "contributors": {
-                "Cosmo": "Owner"
+                "Cosmo": "Owner",
+								"Birch": "Artits/Builder"
             },
             "contact": {},
             "icon": "assets/example_mod/icon.png",

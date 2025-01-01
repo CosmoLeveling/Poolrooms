@@ -20,5 +20,7 @@ public class PoolsEnUsProvider extends FabricLanguageProvider {
 		translationBuilder.add(PoolsBlocks.STEEL_BLOCK, "Steel Block");
 		translationBuilder.add(PoolsItemGroups.CUSTOM_ITEM_GROUP_KEY,"Pools");
 		translationBuilder.add(PoolsBlocks.SKY_BLOCK,"Sky Block");
+		translationBuilder.add(PoolsBlocks.CAGED_LIGHT, "Caged Light");
+		translationBuilder.add(PoolsBlocks.FLAT_LIGHT,"Flat Light");
 	}
 }

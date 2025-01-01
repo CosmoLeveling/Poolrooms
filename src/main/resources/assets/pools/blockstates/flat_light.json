@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "pools:block/flat_light",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "pools:block/flat_light",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pools:block/flat_light",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "pools:block/flat_light",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "pools:block/flat_light"
+    },
+    "facing=west": {
+      "model": "pools:block/flat_light",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
